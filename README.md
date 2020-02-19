@@ -9,4 +9,4 @@
 <p>Both web and mobile.</p>
 
 <h1>Live Demo</h1>
-<p>live site can be view <a href="https://gbliss00.github.io/resume/index.html" target="_blank">here</a></p>
+<p>live site can be view <a href="https://gbliss00.github.io/Landing-Page/" target="_blank">here</a></p>
