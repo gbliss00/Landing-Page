@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gordon B. Resume | 2020</title>
+    <!-- Load Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+    <!-- Load Styles -->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+    <header class="page__header">
+      <nav class="navbar__menu">
+        <!-- Navigation starts as empty UL that will be populated with JS -->
+        <ul id="navbar__list"></ul>
+      </nav>
+    </header>
+    <main>
+      <header class="main__hero">
+        <h1>Gordon Bilissis, BBA</h1>
+        <h2 class="subhead">web designer based in toronto, Canada</h1>
+          <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      </header>
+      <section id="section1" data-nav="About" class="my-active-class sec">
+        <div class="landing__container imgwrap">
+          <h2>About</h2>
+          <img class="floatimg" src="/assets/img/world.jpg" alt="">
+          <p>
+              I’m a Web Designer that works in both a creative and technical capacity. I believe that every website is different, and every need requires a different method and approach. The challenge is to find the way that works for my clients and that solves the needs of the project. When I am not pushing pixels I switch my computer off for reading, long distance running, and updating my programming knowledge. I am a perfectionist with a real passion for Art and Design. I specialize in clean and functional websites built respecting the latest web standards.
+          </p>
+          <p>
+          I strive for perfection in everything I do and continually educate myself to ensure I’m on top of current web design trends. I believe in being bold, taking risks, and thinking outside the box. This reflects my deeply held belief that great design cannot happen without passion, intelligent approaches, and — above all — my personal commitment to achieving your goals. These principles are demonstrated by a portfolio that spans 7 successful years, and covers a wide variety of industries.
+          </p>
+
+        </div>
+      </section>
+      <section class="sec" id="section2" data-nav="Skills">
+        <div class="landing__container">
+          <h2>Skill Set</h2>  
+          <div class="skills">
+          <h3>Front End Development</h3>
+          <ul>
+            <li>HTML5 (writing semantic clean code)</li>
+            <li>CSS3 (while utilizing shorthand) SASS, Grid, and Flexbox</li>
+            <li>JavaScript & jQuery (Interactivity & Validation)</li>
+            <li>Bootstrap4 (building landing pages, and websites.)</li>
+            <li>Understanding of accessibility and WCAG guidelines</li>
+          </ul>
+        </div><br>
+        <div class="skills">
+          <h3>Adobe Creative Cloud 2020</h3>
+          <ul>
+            <li>InDesign</li>
+            <li>Photoshop</li>
+            <li>Illustrator</li>
+            <li>Premier & Audition</li>
+            <li>Sketch</li>
+          </ul>
+         </div><br>
+         <div class="skills">
+            <h3>Content Management Systems</h3>
+            <ul>
+              <li>ARC Publishing (Washington Post and Globe and Mail)</li>
+              <li>WordPress</li>
+              <li>WebFlow</li>
+              <li>Celtra</li>
+              <li>Drupal</li>
+            </ul>
+           </div>
+        </div>
+      </section>
+      <section class="sec" id="section3" data-nav="Experience">
+        <div class="landing__container">
+          <h2>Experience</h2>
+          <h3>The Globe and Mail, Toronto, ON</h3>
+          <h4>Web Designer | 2019-2020</h4>
+          <p>
+              Web Designer for the Revenue Department of one of Canada's leading newspapers, generating revenue through the design and
+              production of digital advertising products and producing innovative visual concepts and front end designs to support sales
+              initiatives, pitches and RFPs. My duties include liaising with agencies and clients to provide creative solutions and guidance,
+              ensuring digital ads, microsites, and custom coded articles meet technical and creative specifications and working on integrated
+              campaigns involving the Sales, Editorial, Marketing, and UX departments.
+          </p>
+<br>
+          <h3>HollisWealth, Industrial Alliance | Vancouver, BC</h3>
+          <h4>Web Designer | 2013-2019</h4>
+          <p>
+              As the Senior Graphic Designer and Front-End Web Developer, I was responsible for over 40 Advisory Team Websites and
+              Marketing Campaigns. Being a jack of all trades, I worked within a creative & technical capacity. Placing strong importance
+              on being thorough and thoughtful, I use the SDLC (software development life cycle) process to execute a number of design
+              projects and websites on time and under budget.
+          </p>
+        </div>
+      </section>
+      <section class="sec" id="section4" data-nav="Education">
+        <div class="landing__container">
+          <h2>Education</h2>
+          <h3>British Columbia Institute of Technology</h3>
+          <h4>New Media Design & Web Development | 2016</h4>
+          <p>Learned how to: use the current version of the Adobe Creative Suite, Sketch and Figma. Code HTML5, CSS3,and JavaScript. Integrate CMS systems, PHP, and MySQL databases. Implement SEO tactics and web marketing strategies. Shoot, edit, and add special effects to digital videos.</p>
+          <br>
+          <h3>Langara College</h3>
+          <h4>Bachelor of Business Administration, Finance | 2012</h4>
+          <p>Earned a 4-year Baccalaureate Degree in Business Administration (B.B.A.) from the Langara School of Management (Vancouver, BC). Completed over 100 University transferable credits in computer sciences,graphic design, finance and marketing.</p>
+        </div>
+      </section>
+      <section class="sec" id="section5" data-nav="Contact">
+        <div class="landing__container">
+          <h2>Contact Me</h2>
+          I am always excited for new challenges and available to help you realize your projects.
+          Feel free to connect with me via email <a href="mailto:info@gbstudios.ca" target="_blank">info@gbstudios.ca</a>
+        </div>
+      </section>
+    </main>
+    <footer class="page__footer">
+      <p>&copyGordon B. Resume 2020</p>
+    </footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>
