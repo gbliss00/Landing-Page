@@ -301,5 +301,5 @@ section.my-active-class .landing__container::after {
 }
 
 #myBtn:hover {
-	background-color: purple; /* Add a dark-grey background on hover */
+	background-color: purple; 
 }
